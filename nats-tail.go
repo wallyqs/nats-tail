@@ -12,13 +12,13 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/nats-io/nats"
+	"github.com/nats-io/go-nats"
 )
 
 const (
 	defaultPaddingSize          = 20
 	defaultTimestampPaddingSize = 30
-	version                     = "0.1.0"
+	version                     = "0.1.2"
 )
 
 type Engine struct {
